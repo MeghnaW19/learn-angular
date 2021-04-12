@@ -1,11 +1,5 @@
-# PracticeComponents
+## Data binding
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.5.
-
-    - Create 2 components (manually or with CLI): WarningAlert and SuccessAlert
-    - Output them beneath each other in the AppComponent
-    - Output a warning and success message in each component
-    - Style the components
 
 ## Development server
 

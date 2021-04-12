@@ -1,0 +1,27 @@
+<app-server></app-server>
+<p>servers works!</p>
+
+<p>----------property binding------------</p>
+<button class="btn btn-primary" [disabled]="!allowNewServer">Add server</button>
+
+<p>--------------string interpolation---------------</p>
+<p>{{allowNewServer}}</p>
+
+<p>----------property binding------------</p>
+<p [innerText]="allowNewServer"></p>
+
+<p>-------------------E N D----------------------</p>
+
+
+<p>----------event binding------------</p>
+<input type="text" class="form-control"(input)="onUpdateServerName($event)">
+<p>--------------string interpolation---------------</p>
+<p>{{serverName}}</p>
+<button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onCreateServer()">Add server</button>
+<p></p>
+
+<p>--------------string interpolation---------------</p>
+<p>{{serverCreationStatus}}</p>
+
+
+<p>-------------------E N D----------------------</p>
